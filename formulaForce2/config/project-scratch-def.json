@@ -14,5 +14,16 @@
     "mobileSettings": {
         "enableS1EncryptedStoragePref2": false
     }
-  }
+  },
+  
+    "packageDirectories":[
+      {
+        "path":"force-app",
+        "default": true
+      }
+    ],
+    "namespace":"myFirstApp2",
+    "sfdcLoginURL": "https://login.salesforce.com",
+    "sourceApiVersion": "45.0"
+  
 }
